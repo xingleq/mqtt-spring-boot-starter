@@ -1,0 +1,47 @@
+{
+  "properties": [
+    {
+      "name": "xing.mqtt.config.clientId",
+      "type ":"java.lang.String",
+      "description": "MQTT客户端ID."
+    },
+    {
+      "name": "xing.mqtt.config.serverProtocol",
+      "type ":"java.lang.String",
+      "description": "MQTT服务端协议.",
+      "defaultValue": "tcp"
+    },
+    {
+      "name": "xing.mqtt.config.serverHost",
+      "type ":"java.lang.String",
+      "description": "MQTT服务端地址.",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "xing.mqtt.config.serverPort",
+      "type ":"java.lang.Integer",
+      "description": "MQTT服务端端口.",
+      "defaultValue": 1883
+    },
+    {
+      "name": "xing.mqtt.config.username",
+      "type ":"java.lang.String",
+      "description": "MQTT服务端用户名."
+    },
+    {
+      "name": "xing.mqtt.config.password",
+      "type ":"java.lang.String",
+      "description": "MQTT服务端密码."
+    },
+    {
+      "name": "xing.mqtt.config.connectionTimeout",
+      "type ":"java.lang.Integer",
+      "description": "MQTT服务端连接超时时间."
+    },
+    {
+      "name": "xing.mqtt.config.keepAliveInterval",
+      "type ":"java.lang.Integer",
+      "description": "MQTT服务端保活间隔."
+    }
+  ]
+}
